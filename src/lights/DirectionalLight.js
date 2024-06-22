@@ -36,7 +36,7 @@ class DirectionalLight {
         var b = -t;  
     
         var n = 0.01;  
-        var f = 200;  
+        var f = 400;  
             
         mat4.ortho(projectionMatrix, l, r, b, t, n, f);  
 
